@@ -1,5 +1,6 @@
 package selection
 
+// 选择排序
 func SortBy(data [9]int) [9]int {
 	length := len(data)
 	for i := 0; i < length-1; i++ {
